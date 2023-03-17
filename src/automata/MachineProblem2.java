@@ -1,3 +1,5 @@
+package automata;
+
 public class MachineProblem2 {
 
 	public static void main(String[] args) {
