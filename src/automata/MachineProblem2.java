@@ -24,15 +24,27 @@ public class MachineProblem2 {
 	        String concatenation1 = string1 + string2;
 	        String concatenation2 = string2 + string1;
 	        	
+	        
+	        // check if palindrome is true
+	        if(string1.equals(palindrome2) || string2.equals(palindrome1)) {
+	        	System.out.println("String 1 and String 2 are palindrome.");
+	        }
+	        else {
+	        	System.out.println("String 1 and String 2 are not palindrome.");
+	        }
 
 	        // display the results
-	        System.out.println("The length of the first string "+ string1 + " is: " + len1);
-	        System.out.println("The length of the second string "+ string2 + " is: " + len2);
-	        System.out.println("The palindrome of the first string" + string1 + " is: " + palindrome1);
-	        System.out.println("The palindrome of the second string"+ string2 + " is: " + palindrome2);
+	        System.out.println("The length of string 1 "+ string1 + " is: " + len1);
+	        System.out.println("The length of string 2 "+ string2 + " is: " + len2);
+	        System.out.println("The palindrome of the string1 " + string1 + " is: " + palindrome1);
+	        System.out.println("The palindrome of the string2 "+ string2 + " is: " + palindrome2);
 	        System.out.println("The concatenation of string 1 and 2 is: " + concatenation1);
 	        System.out.println("The concatenation of string 2 and 1 is: " + concatenation2);
-
+	        
+	        
+	        
+	        
+	        
 	        sc.close();
 	    }
 	}
