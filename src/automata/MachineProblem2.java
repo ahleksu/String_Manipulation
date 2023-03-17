@@ -23,6 +23,7 @@ public class MachineProblem2 {
 	        // concatenate the strings
 	        String concatenation1 = string1 + string2;
 	        String concatenation2 = string2 + string1;
+	        	
 
 	        // display the results
 	        System.out.println("The length of the first string "+ string1 + " is: " + len1);
