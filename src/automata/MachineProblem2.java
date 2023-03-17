@@ -7,9 +7,9 @@ public class MachineProblem2 {
 	        Scanner sc = new Scanner(System.in);
 
 	        // take input for the two strings
-	        System.out.print("Enter the first string: ");
+	        System.out.print("Input string 1: ");
 	        String string1 = sc.nextLine();
-	        System.out.print("Enter the second string: ");
+	        System.out.print("Input string 2: ");
 	        String string2 = sc.nextLine();
 
 	        // determine the length of the strings
